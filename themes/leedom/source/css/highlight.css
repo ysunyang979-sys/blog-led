@@ -1,0 +1,178 @@
+/* 白色主题代码高亮 */
+.article-entry pre,
+.article-entry .highlight {
+  background: #f8f9fa;
+  margin: 15px 0;
+  padding: 15px 20px;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  overflow: auto;
+  color: #333;
+  line-height: 1.6;
+}
+
+.article-entry .highlight .gutter pre,
+.article-entry .gist .gist-file .gist-data .line-numbers {
+  color: #999;
+  font-size: .85em;
+  background: #f1f3f5;
+  border-right: 1px solid #e9ecef;
+}
+
+.article-entry pre,
+.article-entry code {
+  font-family: "JetBrains Mono", "Fira Code", "Source Code Pro", Consolas, Monaco, monospace;
+  font-size: 14px;
+}
+
+.article-entry code {
+  background: #f1f3f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #e83e8c;
+}
+
+.article-entry pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+.article-entry .highlight pre {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.article-entry .highlight table {
+  margin: 0;
+  width: 100%;
+}
+
+.article-entry .highlight td {
+  border: none;
+  padding: 0;
+}
+
+.article-entry .highlight figcaption {
+  font-size: .85em;
+  color: #666;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+.article-entry .highlight figcaption a {
+  float: right;
+}
+
+.article-entry .highlight .gutter pre {
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+.article-entry .highlight .line {
+  height: 1.6em;
+}
+
+.article-entry .highlight .line.marked {
+  background: #fff3cd;
+}
+
+/* 语法高亮颜色 - 白色主题 */
+pre .comment,
+pre .title {
+  color: #6a737d;
+}
+
+pre .variable,
+pre .attribute,
+pre .tag,
+pre .regexp,
+pre .ruby .constant,
+pre .xml .tag .title,
+pre .xml .pi,
+pre .xml .doctype,
+pre .html .doctype,
+pre .css .id,
+pre .css .class,
+pre .css .pseudo {
+  color: #d73a49;
+}
+
+pre .number,
+pre .preprocessor,
+pre .built_in,
+pre .literal,
+pre .params,
+pre .constant {
+  color: #005cc5;
+}
+
+pre .class,
+pre .ruby .class .title,
+pre .css .rules .attribute {
+  color: #22863a;
+}
+
+pre .string,
+pre .value,
+pre .inheritance,
+pre .header,
+pre .ruby .symbol,
+pre .xml .cdata {
+  color: #032f62;
+}
+
+pre .css .hexcolor {
+  color: #005cc5;
+}
+
+pre .function,
+pre .python .decorator,
+pre .python .title,
+pre .ruby .function .title,
+pre .ruby .title .keyword,
+pre .perl .sub,
+pre .javascript .title,
+pre .coffeescript .title {
+  color: #6f42c1;
+}
+
+pre .keyword,
+pre .javascript .function {
+  color: #d73a49;
+}
+
+/* markdown-body 样式 */
+.markdown-body .highlight {
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.markdown-body .highlight table td {
+  padding: 0;
+  border: none;
+}
+
+.markdown-body .highlight table tr {
+  border: none;
+}
+
+.markdown-body .highlight .gutter pre {
+  color: #999;
+  background: #f1f3f5;
+}
+
+.highlight .code pre {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #f8f9fa !important;
+}
+
+.markdown-body .highlight table tbody pre {
+  border-radius: 0;
+}
