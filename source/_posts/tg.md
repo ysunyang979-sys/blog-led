@@ -5,8 +5,6 @@ title: 电报账号保存
 
 - [TG便携版下载](https://desktop.telegram.org)
 - 电报账号
-- 一个接收验证码的邮箱
-- [TG x手机端](https://play.google.com/store/apps/details?id=org.thunderdog.challegram)
 
 ## 原因
 
